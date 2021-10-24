@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentschedulerv2">
+
+    <permission android:name="my.app.PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupOnly="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentSchedulerV2">
+
+        <receiver
+            android:name=".Utilities.MyReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="my.app.PERMISSION">
+        </receiver>
+
+        <activity
+            android:name=".UI.CourseNotesList"
+            android:exported="true"
+            android:label="Course Notes" />
+        <activity
+            android:name=".UI.NoteDetails"
+            android:exported="true"
+            android:label="Note Details" />
+        <activity
+            android:name=".UI.AddNote"
+            android:exported="true"
+            android:label="Add Note" />
+        <activity
+            android:name=".UI.AssessmentDetails"
+            android:exported="true"
+            android:label="Assessment Details" />
+        <activity
+            android:name=".UI.AddAssessment"
+            android:exported="true"
+            android:label="Add Assessment" />
+        <activity
+            android:name=".UI.CourseDetails"
+            android:exported="true"
+            android:label="Course Details" />
+        <activity
+            android:name=".UI.AddCourse"
+            android:exported="true"
+            android:label="Add Course" />
+        <activity
+            android:name=".UI.TermDetails"
+            android:exported="true"
+            android:label="Term Details" />
+        <activity
+            android:name=".UI.AddTerm"
+            android:exported="true"
+            android:label="Add Term" />
+        <activity
+            android:name=".UI.TermList"
+            android:exported="true"
+            android:label="Terms" />
+        <activity
+            android:name=".UI.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

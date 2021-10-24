@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Student Schedule</string>
+    <string name="delete_this_term">Delete this term</string>
+    <string name="delete_this_course">Delete this course</string>
+    <string name="delete_assessment">Delete assessment</string>
+    <string name="delete_course_message">
+        Are you sure you want to delete this course?
+        This will delete all associated course information, including assessments and notes for this course.
+    </string>
+    <string name="delete_note">Delete note</string>
+    <string name="student_schedule">Student Schedule</string>
+    <string name="app_icon_description">app icon</string>
+    <string name="view_terms_button_text">View Terms</string>
+    <string name="share_note">Share note</string>
+    <string name="set_start_notification">Set Start Date Notification</string>
+    <string name="set_end_notification">Set End Date Notification</string>
+    <string name="see_course_notes">See course notes</string>
+    <string name="add_note">Add note</string>
+    <string name="see_mentor_details">See mentor details</string>
+    <string name="channel_name">channel name</string>
+    <string name="channel_description">channel description</string>
+    <string name="terms_list_button_label">TO TERMS LIST</string>
+</resources>
